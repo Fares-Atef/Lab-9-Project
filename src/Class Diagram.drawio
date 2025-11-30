@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.1">
+  <diagram name="Page-1" id="kR2S2AT5AtaV-WUvZKd_">
+    <mxGraphModel dx="3165" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GK63zZSTK_COeiUmwZfS-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;div&gt;Checker&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="310" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-2" parent="GK63zZSTK_COeiUmwZfS-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="#SudokoBoard board&lt;div&gt;#ResultCollector results&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-3" parent="GK63zZSTK_COeiUmwZfS-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="4" width="310" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-4" parent="GK63zZSTK_COeiUmwZfS-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="#Checker(SudokuBoard board, ResultCollector results)&lt;div&gt;+run() : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="310" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Runnable&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+run() : void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="10" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-6" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-4" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="GK63zZSTK_COeiUmwZfS-5" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="90" y="390" as="sourcePoint" />
+            <mxPoint x="250" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RowChecker&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-int rowIndex&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+RowChecker(int rowIndex, SodukoBoard board, ResultCollector results)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+run() : void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="400" x="260" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-8" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-7" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.881;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" target="GK63zZSTK_COeiUmwZfS-4" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="360" y="390" as="sourcePoint" />
+            <mxPoint x="520" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ColumnChecker&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-int colIndex&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ColumnChecker(int colIndex, SodukoBoard board, ResultCollector results)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+run() : void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="410" x="690" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-10" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-9" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="GK63zZSTK_COeiUmwZfS-4" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="877" y="401" as="sourcePoint" />
+            <mxPoint x="820" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-11" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BoxChecker&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-int boxIndex&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+BoxChecker(int boxIndex, SodukoBoard board, ResultCollector results)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+run() : void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="400" x="130" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-12" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-11" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.645;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="GK63zZSTK_COeiUmwZfS-4" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="267" y="581" as="sourcePoint" />
+            <mxPoint x="210" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-13" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SudokuBoard&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-int [][] grid&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+SudokuBoard(int[][] values)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+int get(int r, int c)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+int[] getRow(int r)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+int[] getColumn(int c)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+int[] getBox(int boxIndex)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="160" x="1130" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-14" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;singleton&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ResultCollector&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-ResultCollector instance&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-List&amp;lt;String&amp;gt;[ ] rowErrors&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-List&amp;lt;String&amp;gt;[ ] colErrors&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-List&amp;lt;String&amp;gt;[ ] boxErrors&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-ResultCollector()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getInstance() : ResultCollector&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+reset() : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+check(String type, int index, int[] values) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-addError(String type. int index, String entry) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+printFinalResult() : void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="210" width="290" x="1370" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-15" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;static&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CheckerFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+createCheckers(int mode, SudokoBoard, ResultCollector results) : List&amp;lt;Thread&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="440" x="1295" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-16" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-15" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GK63zZSTK_COeiUmwZfS-14" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1515" y="200" as="sourcePoint" />
+            <mxPoint x="1570" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-17" connectable="0" parent="GK63zZSTK_COeiUmwZfS-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.6275" y="1" as="geometry">
+            <mxPoint x="-6" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-18" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-14" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;elbow=horizontal;" target="GK63zZSTK_COeiUmwZfS-14" value="Instance">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1515" y="580" />
+            </Array>
+            <mxPoint x="1440" y="470" as="sourcePoint" />
+            <mxPoint x="1530" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-20" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-15" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="GK63zZSTK_COeiUmwZfS-13" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1240" y="230" as="sourcePoint" />
+            <mxPoint x="1240" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-21" connectable="0" parent="GK63zZSTK_COeiUmwZfS-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.6275" y="1" as="geometry">
+            <mxPoint x="-6" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-22" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-14" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="GK63zZSTK_COeiUmwZfS-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1410" y="240" as="sourcePoint" />
+            <mxPoint x="1570" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-24" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-13" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="GK63zZSTK_COeiUmwZfS-2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1130" y="300" as="sourcePoint" />
+            <mxPoint x="100" y="123" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-25" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-15" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GK63zZSTK_COeiUmwZfS-9" value="Creats">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1160" y="320" as="sourcePoint" />
+            <mxPoint x="1320" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-27" connectable="0" parent="GK63zZSTK_COeiUmwZfS-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0....9" vertex="1">
+          <mxGeometry relative="1" x="0.9034" y="2" as="geometry">
+            <mxPoint x="15" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-28" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-15" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GK63zZSTK_COeiUmwZfS-7" value="Creats">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1240" y="290" as="sourcePoint" />
+            <mxPoint x="840" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-29" connectable="0" parent="GK63zZSTK_COeiUmwZfS-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0....9" vertex="1">
+          <mxGeometry relative="1" x="0.9034" y="2" as="geometry">
+            <mxPoint x="15" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK63zZSTK_COeiUmwZfS-30" edge="1" parent="1" source="GK63zZSTK_COeiUmwZfS-15" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.143;exitY=1.041;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="GK63zZSTK_COeiUmwZfS-11" value="Creats">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1355" y="350" as="sourcePoint" />
+            <mxPoint x="520" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
