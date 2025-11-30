@@ -31,7 +31,7 @@ public class Main {
             try {
                 mode = Integer.parseInt(args[1]);
             } catch (NumberFormatException e) {
-                System.err.println("[ERROR] Mode must be a number. Given: " + args[1]);
+                System.err.println("[ERROR] The Mode must be a number. Given: " + args[1]);
                 printUsage();
                 return;
             }
