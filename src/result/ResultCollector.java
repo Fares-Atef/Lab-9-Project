@@ -76,23 +76,23 @@ public class ResultCollector {
         }
 
         if (!any) {
-            System.out.println("VALID");
+            System.out.println("VALID RESULT");
             return;
         }
 
-        System.out.println("INVALID");
+        System.out.println("INVALID RESULT");
 
         for (int i = 0; i < 9; i++) {
             for (String s : rowErrors[i]) System.out.println(s);
         }
 
-        System.out.println("------------------------------------------");
+        System.out.println("-----------------------------------------------");
 
         for (int i = 0; i < 9; i++) {
             for (String s : colErrors[i]) System.out.println(s);
         }
 
-        System.out.println("------------------------------------------");
+        System.out.println("-----------------------------------------------");
 
         for (int i = 0; i < 9; i++) {
             for (String s : boxErrors[i]) System.out.println(s);
